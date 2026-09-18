@@ -1,0 +1,166 @@
+{
+  "emoji_root": "/scratch/utils/emoticons/emoticons_png/512",
+  "num_variants": 20,
+  "variants": [
+    {
+      "name": "grinning__double_arc_10_alpha80_large",
+      "emoji_name": "grinning",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f600.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/grinning__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "grinning__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "grinning",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f600.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/grinning__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "laughing__double_arc_10_alpha80_large",
+      "emoji_name": "laughing",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f602.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/laughing__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "laughing__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "laughing",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f602.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/laughing__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "smiling_eyes__double_arc_10_alpha80_large",
+      "emoji_name": "smiling_eyes",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f604.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/smiling_eyes__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "smiling_eyes__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "smiling_eyes",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f604.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/smiling_eyes__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "blush__double_arc_10_alpha80_large",
+      "emoji_name": "blush",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f60a.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/blush__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "blush__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "blush",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f60a.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/blush__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "wink__double_arc_10_alpha80_large",
+      "emoji_name": "wink",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f609.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/wink__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "wink__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "wink",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f609.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/wink__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "sunglasses__double_arc_10_alpha80_large",
+      "emoji_name": "sunglasses",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f60e.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/sunglasses__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "sunglasses__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "sunglasses",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f60e.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/sunglasses__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "fire__double_arc_10_alpha80_large",
+      "emoji_name": "fire",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f426_200d_1f525.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/fire__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "fire__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "fire",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f426_200d_1f525.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/fire__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "skull__double_arc_10_alpha80_large",
+      "emoji_name": "skull",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f480.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/skull__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "skull__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "skull",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f480.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/skull__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "angry__double_arc_10_alpha80_large",
+      "emoji_name": "angry",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f621.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/angry__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "angry__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "angry",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f621.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/angry__dense_grid_16_alpha90_xlarge.png"
+    },
+    {
+      "name": "clown__double_arc_10_alpha80_large",
+      "emoji_name": "clown",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f921.png",
+      "pattern_name": "double_arc_10_alpha80_large",
+      "alpha": 0.8,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/clown__double_arc_10_alpha80_large.png"
+    },
+    {
+      "name": "clown__dense_grid_16_alpha90_xlarge",
+      "emoji_name": "clown",
+      "emoji_path": "/scratch/utils/emoticons/emoticons_png/512/emoji_u1f921.png",
+      "pattern_name": "dense_grid_16_alpha90_xlarge",
+      "alpha": 0.9,
+      "overlay_png": "/scratch/results/emoji_overlay_eval/full_20variants_1gpu/overlays_224/clown__dense_grid_16_alpha90_xlarge.png"
+    }
+  ]
+}
