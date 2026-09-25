@@ -1,6 +1,6 @@
-# MemeLens-VLM: Robust Multimodal Misogyny Classification with Qwen3-VL
+# MemeLens-VLM: Robust Multimodal Misogyny Classification
 
-Fine-tuning and robustness evaluation of **Qwen3-VL-8B-Instruct** for multimodal misogyny classification on the **MAMI (Multimedia Automatic Misogyny Identification)** dataset.
+Fine-tuning and robustness evaluation of **MemeLens-VLM** (`QCRI/MemeLens-VLM`) for multimodal misogyny classification on the **MAMI (Multimedia Automatic Misogyny Identification)** dataset.
 
 This project was developed for **Deep Learning (EE-559) at EPFL** and investigates whether a vision-language model can remain robust when visual content is deliberately obfuscated by perturbations not observed during evaluation.
 
@@ -8,7 +8,7 @@ This project was developed for **Deep Learning (EE-559) at EPFL** and investigat
 
 Multimodal content moderation models can exploit both textual and visual signals, but their predictions may be sensitive to relatively simple modifications of the image.
 
-In this project, we fine-tuned **Qwen3-VL-8B-Instruct** using **LoRA** and built an evaluation pipeline for studying robustness to synthetic visual obfuscations.
+In this project, we fine-tuned **MemeLens-VLM** using **LoRA** and built an evaluation pipeline for studying robustness to synthetic visual obfuscations.
 
 The project focuses on three questions:
 
@@ -18,9 +18,11 @@ The project focuses on three questions:
 
 ## Model and Training
 
-The base model is:
+The pretrained model checkpoint is:
 
-**Qwen3-VL-8B-Instruct**
+**MemeLens-VLM** (`QCRI/MemeLens-VLM`)
+
+The project loads this checkpoint with Hugging Face's `Qwen3VLForConditionalGeneration` model class.
 
 Fine-tuning was performed using parameter-efficient **Low-Rank Adaptation (LoRA)** rather than updating all model parameters.
 
@@ -33,7 +35,7 @@ Main tools:
 - scikit-learn
 - NumPy / pandas
 
-The model was adapted to the MAMI image-text classification task while retaining the pretrained multimodal representations of Qwen3-VL.
+The model was adapted to the MAMI image-text classification task while retaining the pretrained multimodal representations of MemeLens-VLM.
 
 ## Dataset
 
@@ -90,7 +92,7 @@ MAMI image + text samples
   Data preprocessing
           |
           v
- Qwen3-VL-8B-Instruct
+      MemeLens-VLM
           |
           v
      LoRA fine-tuning
@@ -108,4 +110,4 @@ MAMI image + text samples
                                  |
                                  v
                          Macro-F1 analysis
-                         
+```
